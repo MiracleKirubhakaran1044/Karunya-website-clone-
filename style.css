@@ -1,0 +1,501 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #233c79;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.banner {
+    background-color: #f4f4f4;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+}
+
+.highlight-item {
+    background-color: #b59758;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+}
+
+footer {
+    background-color: #233c79;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+        /* PAUL D portion */
+        .chancellor-section {
+            display: flex;
+            align-items: flex-start;
+            background-color: #f9f9f9;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .chancellor-text {
+            max-width: 60%;
+        }
+
+        .chancellor-text p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .chancellor-text h3 {
+            font-family: 'Merriweather', serif;
+            color: #1a53b5;
+            font-size: 24px;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .chancellor-text h3 span {
+            color: #6c757d;
+            font-size: 20px;
+        }
+
+        .chancellor-text .underline {
+            width: 50px;
+            height: 2px;
+            background-color: #b08d57;
+            margin: 10px 0;
+        }
+
+        .chancellor-text h2 {
+            font-family: 'Lato', sans-serif;
+            color: #2c3e50;
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        .chancellor-image {
+            flex-shrink: 0;
+            margin-left: 30px;
+        }
+
+        .chancellor-image img {
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f8f9fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        
+        .academics-section {
+            display: flex;
+            flex-direction: row;
+            padding: 40px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        .text-section {
+            width: 50%;
+            padding-right: 20px;
+        }
+        
+        .text-section h1 {
+            font-family: 'Merriweather', serif;
+            color: #1a53b5;
+            font-size: 48px;
+            
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        
+        .text-section p {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #333333;
+        }
+        
+        .image-section {
+            width: 50%;
+        }
+        
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .news {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .news-link {
+            text-decoration: none;
+            color: #004080; /* Karunya blue */
+        }
+        
+        .news-link h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .image-news {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .image-news a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .image-news img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #004080;
+            border-radius: 10px;
+        }
+        
+        .image-news p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            opacity: 0.8;
+        }    
+        .events {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .news-link {
+            text-decoration: none;
+            color: #004080; /* Karunya blue */
+        }
+        
+        .news-link h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .image-news {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .image-news a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .image-news img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #004080;
+            border-radius: 10px;
+        }
+        
+        .image-news p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            opacity: 0.8;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: white;
+        }
+        
+        .main-video {
+            flex: 2;
+            max-width: 60%;
+        }
+        
+        .side-videos {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 30%;
+        }
+        
+        .side-video {
+            padding: 10px; /* Add padding for better spacing */
+            transition: transform 0.2s; /* Smooth transition for hover effect */
+        }
+        
+        .side-video:hover {
+            transform: scale(1.02); /* Slightly scale up on hover */
+        }
+        
+        .side-video iframe {
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            width: 100%; /* Ensure the iframe takes full width */
+            height: auto; /* Maintain aspect ratio */
+        }
+        
+        .side-video p {
+            text-align: center;
+            font-size: 1em;
+            margin-top: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .video-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .main-video {
+                max-width: 100%;
+            }
+        
+            .side-videos {
+                max-width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        
+            .side-video {
+                width: 45%;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+       
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 40px 20px;
+            background-image: url('back footer.jpg'); /* Add your background image here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .column {
+            flex: 1 1 20%;
+            padding: 10px;
+            color: #f0f0f0; /* Adjusted font color */
+        }
+        
+        .column h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: #f0a500; /* Custom color for headings */
+        }
+        
+        .column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .column ul li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        
+        .column ul li::before {
+            content: '•';
+            color: #f0a500; /* Customize bullet color */
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+            font-weight: bold;
+        }
+        
+        .column h2 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #fff; /* White color for the toll-free numbers */
+        }
+        
+        .column p {
+            margin: 5px 0;
+            color: #ccc; /* Light grey for regular text */
+            font-size: 14px;
+        }
+        
+        .column a {
+            color: #f0a500; /* Link color */
+            text-decoration: none;
+        }
+        
+        .column a:hover {
+            text-decoration: underline;
+        }
+        
+        .social-media {
+            margin-top: 10px;
+        }
+        
+        .social-media a {
+            color: #f0a500;
+            text-decoration: none;
+            margin-right: 5px;
+            font-size: 14px;
+        }
+        
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+            }
+        
+            .column {
+                flex: 1 1 100%;
+                margin-bottom: 20px;
+            }
+        }
+        
+        
+
+
+
+        /* Hover effect for the Chancellor's picture */
+.chancellor-image img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chancellor-image img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+/* Hover effect for all text elements (headings, paragraphs, links) */
+body p, body h1, body h2, body h3, body h4, body a, body li {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Change color and scale slightly on hover */
+body p:hover, body h1:hover, body h2:hover, body h3:hover, body h4:hover, body a:hover, body li:hover {
+    color: #b08d57; /* Change text color to the golden brown */
+    transform: scale(1.02); /* Slightly scale the element */
+}
+
+/* Hover effect for all images */
+body img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Slightly enlarge and add shadow on hover */
+body img:hover {
+    transform: scale(1.05); /* Slightly scale up images */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
+}
+/* Sticky Button Style */
+.sticky-button {
+    position: fixed; /* Keep the button fixed in position while scrolling */
+    right: 0; /* Align to the right side */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Ensure vertical centering */
+    background-color: #d32f2f; /* Red background color similar to the image */
+    color: white; /* White text */
+    padding: 10px 20px; /* Button padding */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    writing-mode: vertical-rl; /* Rotate the text vertically */
+    text-align: center; /* Center text */
+    border-radius: 5px 0 0 5px; /* Rounded left corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
